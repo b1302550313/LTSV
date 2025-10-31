@@ -74,7 +74,7 @@ The `run.py` script provides a unified interface for **training and evaluating t
 ### Example: Long-term Forecasting
 
 ```bash
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=2
 
 model_name=PAttn
 
@@ -107,34 +107,18 @@ python -u run.py \
 ## Citation
 
 ```bibtex
-@inproceedings{jin2024time,
-  title={Time-LLM: Time Series Forecasting by Reprogramming Large Language Models},
-  author={Jin, M. and Others},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2024},
-  url={https://github.com/KimMeen/Time-LLM}
+@inproceedings{jin2024time-llm,
+  title     = {Time-LLM: Time Series Forecasting by Reprogramming Large Language Models},
+  author    = {Jin, Ming and Wang, Shiyu and Ma, Lintao and Chu, Zhixuan and Zhang, James Y. and Shi, Xiaoming and Chen, Pin-Yu and Liang, Yuxuan and Li, Yuan-Fang and Pan, Shirui and Wen, Qingsong},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR) 2024 Poster},
+  year      = {2024},
+  url       = {https://github.com/KimMeen/Time-LLM}
 }
 
-@inproceedings{shi2025time,
-  title={Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts},
-  author={Shi, X. and Others},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2025},
-  url={https://github.com/Time-MoE/Time-MoE}
-}
-
-@article{wang2024deep,
-  title={Deep Time Series Models: A Comprehensive Survey and Benchmark},
-  author={Wang, Y. and Others},
-  journal={arXiv preprint arXiv:2407.13278},
-  year={2024},
-  url={https://github.com/thuml/Time-Series-Library}
-}
-
-@inproceedings{goswami2024moment,
-  title={MOMENT: A Family of Open Time-series Foundation Models},
-  author={Goswami, M. and Others},
-  booktitle={International Conference on Machine Learning (ICML)},
-  year={2024},
-  url={https://github.com/moment-timeseries/moment}
+@inproceedings{shi2025time-moe,
+  title     = {Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts},
+  author    = {Shi, Xiaoming and Wang, Shiyu and Nie, Yuqi and Li, Dianqi and Ye, Zhou and Wen, Qingsong and Jin, Ming},
+  booktitle = {Proceedings of the International Conference on Learning Representations (ICLR) 2025 Spotlight},
+  year      = {2025},
+  url       = {https://github.com/Time-MoE/Time-MoE}
 }
